@@ -8,6 +8,7 @@ fn main() {
 
     let filename = &args[2];
 
-    println!("Searching: {}", query);
-    println!("FileName is : {}", filename);
+    // 한글로 변경시도
+    println!("검색: {}", query);
+    println!("파일의 이름은 : {}", filename);
 }
